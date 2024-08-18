@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Aamir - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="main">
+    <div id="loading-screen">
+        <div class="loader">
+            <svg class="bike" viewBox="0 0 48 30" width="48px" height="30px">
+                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                    <g transform="translate(9.5,19)">
+                        <circle class="bike__tire" r="9" stroke-dasharray="56.549 56.549" />
+                        <g class="bike__spokes-spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+                            <circle class="bike__spokes" r="5" />
+                            <circle class="bike__spokes" r="5" transform="rotate(180,0,0)" />
+                        </g>
+                    </g>
+                    <g transform="translate(24,19)">
+                        <g class="bike__pedals-spin" stroke-dasharray="25.133 25.133" stroke-dashoffset="-21.991"
+                            transform="rotate(67.5,0,0)">
+                            <circle class="bike__pedals" r="4" />
+                            <circle class="bike__pedals" r="4" transform="rotate(180,0,0)" />
+                        </g>
+                    </g>
+                    <g transform="translate(38.5,19)">
+                        <circle class="bike__tire" r="9" stroke-dasharray="56.549 56.549" />
+                        <g class="bike__spokes-spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+                            <circle class="bike__spokes" r="5" />
+                            <circle class="bike__spokes" r="5" transform="rotate(180,0,0)" />
+                        </g>
+                    </g>
+                    <polyline class="bike__seat" points="14 3,18 3" stroke-dasharray="5 5" />
+                    <polyline class="bike__body" points="16 3,24 19,9.5 19,18 8,34 7,24 19" stroke-dasharray="79 79" />
+                    <path class="bike__handlebars" d="m30,2h6s1,0,1,1-1,1-1,1" stroke-dasharray="10 10" />
+                    <polyline class="bike__front" points="32.5 2,38.5 19" stroke-dasharray="19 19" />
+                </g>
+            </svg>
+        </div>
+    </div>
+
+    <button id="scroll-to-top" aria-label="Scroll to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4L5 11H9V20H15V11H19L12 4Z" fill="currentColor" />
+        </svg>
+    </button>
+    <header id="left">
+        <nav>
+            <div class="left"><a href="#main"><img src="Hamza.png" alt="Hamza"></a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Hamza</span>
+                <div>and I am a Passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png">
+            </div>
+        </section>
+        <hr class="scroll-line">
+        <div class="experience" id="experience">
+            <div class="react-reveal experience-container" id="workExperience"
+                style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-957167551635256-4;">
+                <div class="box">
+                    <h1 class="experience-heading">Work Experience</h1>
+                    <div class="experience-cards-div">
+                        <div class="experience-card-dark">
+                            <div class="experience-banner" style="background: rgb(34, 69, 131);">
+                                <div class="experience-blurred_div"></div>
+                                <div class="experience-div-company">
+                                    <h5 class="experience-text-company">Stack Delta</h5>
+                                </div>
+                                <img crossorigin="anonymous" class="experience-roundedimg" src="stackDelta.png"
+                                    alt="Stack Delta">
+                            </div>
+                            <div class="experience-text-details">
+                                <h5 class="experience-text-role dark-mode-text">Full Stack Developer (Remote)</h5>
+                                <h5 class="experience-text-date dark-mode-text">DEC 2023 - Present</h5>
+                                <p class="subTitle experience-text-desc dark-mode-text">
+                                    "Developed and maintained FORMS applications for various clients using a combination
+                                    of Spring MVC and JavaScript technologies."
+                                </p>
+                                <ul>
+                                    <li class="subTitle dark-mode-text">
+                                        "Designed and implemented a comprehensive worksheet to address specific client
+                                        requirements, demonstrating problem solving and analytical skills."
+                                    </li>
+                                    <li class="subTitle dark-mode-text">
+                                        "Leveraged Spring MVC, JSP, JSTL tags, and JavaScript for frontend development
+                                        to ensure responsive and user friendly interfaces."
+                                    </li>
+                                    <li class="subTitle dark-mode-text">
+                                        "Collaborated with cross-functional teams to gather requirements, plan project
+                                        timelines, and deliver high-quality software solutions."
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="experience-card-dark">
+                            <div class="experience-banner" style="background: rgb(34, 69, 131);">
+                                <div class="experience-blurred_div"></div>
+                                <div class="experience-div-company">
+                                    <h5 class="experience-text-company">Stepway</h5>
+                                </div>
+                                <img crossorigin="anonymous" class="experience-roundedimg" src="stepway.png"
+                                    alt="Stepway">
+                            </div>
+                            <div class="experience-text-details">
+                                <h5 class="experience-text-role dark-mode-text">Java Developer (Hybrid)</h5>
+                                <h5 class="experience-text-date dark-mode-text">March 2023 - Nov 2023</h5>
+                                <p class="subTitle experience-text-desc dark-mode-text">
+                                    "Led development of a Java backend and HTML/CSS/JavaScript frontend for a car rental
+                                    software."
+                                </p>
+                                <ul>
+                                    <li class="subTitle dark-mode-text">
+                                        "Oversaw booking, car availability, and reporting features for users and
+                                        admins."
+                                    </li>
+                                    <li class="subTitle dark-mode-text">
+                                        "Designed intuitive interfaces for seamless user experience."
+                                    </li>
+                                    <li class="subTitle dark-mode-text">
+                                        "Proactively maintained and optimized software performance for reliability."
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="scroll-line">
+        <div class="experience" id="education">
+            <div class="react-reveal experience-container" id="workExperience"
+                style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-957167551635256-4;">
+                <div class="box">
+                    <h1 class="experience-heading">Education</h1>
+                    <div class="experience-cards-div">
+                        <div class="experience-card-dark">
+                            <div class="experience-banner" style="background: rgb(34, 69, 131);">
+                                <div class="experience-blurred_div"></div>
+                                <div class="experience-div-company">
+                                    <h5 class="experience-text-company1">Mohammad Ali Jinnah <br> University</h5>
+                                </div>
+                                <img crossorigin="anonymous" class="experience-roundedimg" src="maju.png" alt="MAJU">
+                            </div>
+                            <div class="experience-text-details">
+                                <h5 class="experience-text-role dark-mode-text">Bachelors of Science in Computer Science
+                                </h5>
+                                <h5 class="experience-text-date dark-mode-text">June 2020 - June 2024</h5>
+                                <h5 class="experience-text-date dark-mode-text">CGPA : 3.47</h5>
+                            </div>
+                        </div>
+                        <div class="experience-card-dark">
+                            <div class="experience-banner" style="background: rgb(34, 69, 131);">
+                                <div class="experience-blurred_div"></div>
+                                <div class="experience-div-company">
+                                    <h5 class="experience-text-company">St. Patricks College</h5>
+                                </div>
+                                <img crossorigin="anonymous" class="experience-roundedimg" src="stPatrick.png"
+                                    alt="stPatrick">
+                            </div>
+                            <div class="experience-text-details">
+                                <h5 class="experience-text-role dark-mode-text">Intermediate in Computer Science</h5>
+                                <h5 class="experience-text-date dark-mode-text">2018 - 2020</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="scroll-line">
+        <div id="final-year-project" class="project-section">
+            <h2>Final Year Project: Gig Opportunity Analyzer</h2>
+            <p>
+                The Gig Opportunity Analyzer is a platform where users can enter their skills and receive gig
+                opportunities based on those skills. The system scrapes online job portals like <a
+                    href="https://www.guru.com" target="_blank">Guru.com</a> , <a href="https://www.freelancer.com"
+                    target="_blank">Freelancer.com</a> , e.t.c to find matching gigs.
+            </p>
+            <p>
+                <strong>Frontend:</strong> Developed using Angular<br>
+                <strong>Backend:</strong> Powered by Flask<br>
+                <strong>Web Scraping:</strong> Implemented using the Beautiful Soup library
+            </p>
+        </div>
+        <hr class="scroll-line">
+
+    </main>
+    <footer>
+        <div class="footer-container" id="contact">
+            <div><img class="footer-logo" src="Hamza.png" alt="Hamza"></div>
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+92-318-1202911</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>hamzashabbir572@gmail.com</span>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/HamziAamir" target="_blank" class="social-icon github"
+                        aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hamza-aamir-0096b41b7/" target="_blank"
+                        class="social-icon linkedin" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/hamza.shabbirr" target="_blank" class="social-icon instagram"
+                        aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+       var typed = new Typed("#element", {
+    strings: ["'JAVA'", "'Spring MVC'", "'Spring Boot'", "'Java Servlet Pages'", "'Python'", "'Flask'"],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: true
+});
+
+window.addEventListener('scroll', function () {
+    const scrollLines = document.querySelectorAll('.scroll-line');
+    const windowHeight = window.innerHeight;
+
+    scrollLines.forEach(function (scrollLine) {
+        const linePosition = scrollLine.getBoundingClientRect().top;
+
+        if (linePosition < windowHeight && linePosition > 0) {
+            scrollLine.style.width = '90%'; 
+        } else {
+            scrollLine.style.width = '40%'; 
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', function () {
+    const scrollToTopButton = document.getElementById('scroll-to-top');
+    const mainSection = document.getElementById('left'); 
+    const windowHeight = window.innerHeight;
+
+    function toggleButtonVisibility() {
+        const mainPosition = mainSection.getBoundingClientRect();
+        if (mainPosition.top >= 0 && mainPosition.bottom <= windowHeight) {
+            scrollToTopButton.style.opacity = '0';
+            scrollToTopButton.style.pointerEvents = 'none'; 
+        } else {
+            scrollToTopButton.style.opacity = '1';
+            scrollToTopButton.style.pointerEvents = 'auto'; 
+        }
+    }
+
+    toggleButtonVisibility();
+
+    window.addEventListener('scroll', toggleButtonVisibility);
+    window.addEventListener('resize', toggleButtonVisibility);
+
+    scrollToTopButton.addEventListener('click', function () {
+        document.getElementById('left').scrollIntoView({ behavior: 'smooth' });
+    });
+});
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.getElementById('loading-screen').style.display = 'none';
+        document.body.style.overflow = 'auto'; 
+    }, 4000); 
+});
+
+    </script>
+</body>
+
+</html>
